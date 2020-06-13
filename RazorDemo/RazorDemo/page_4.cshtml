@@ -1,0 +1,38 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+        @{ var no = 10;
+            if (no % 2 == 0)
+            {
+                @:Even
+            }
+            else
+            {
+
+            }
+            @:od
+        }
+
+        @switch (no)
+        {
+            case 10:
+                @: its @no
+                break;
+            case 20:
+                @: its @no
+                break;
+
+        }
+    </div>
+</body>
+</html>
