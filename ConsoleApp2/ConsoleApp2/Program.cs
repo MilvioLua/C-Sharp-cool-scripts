@@ -7,7 +7,7 @@ namespace ConsoleApp2
     class Program
     {
         static void Main(string[] args)
-        { 
+        {
             Program myProgram = new Program();
             myProgram.doSomething();
 
@@ -16,16 +16,13 @@ namespace ConsoleApp2
         public void doSomething()
         {
             Student me = new Student("jingle", "gyro");
-        
+
             me.WriteToConsole();
-        
 
 
 
 
+        }
 
-
-        } 
-
-    } 
-} 
+    }
+}
